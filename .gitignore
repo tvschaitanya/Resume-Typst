@@ -1,0 +1,27 @@
+# Build output
+exports/
+
+# Generated files
+*.pdf
+
+# Typst
+.typst/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
