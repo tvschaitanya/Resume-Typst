@@ -10,6 +10,13 @@ This overrides all other instructions.
 - If a task is partially blocked by this, complete the other files and state that `contact.typ` requires manual editing.
 - README structure examples may be referenced; actual file access remains strictly prohibited.
 
+## Rule #2: Never look inside `exports/`
+
+This overrides all other instructions.
+
+- Do not read, view, list, check, open, or access the `exports/` directory or any files within it under any circumstances.
+- Do not reference or verify output files located inside this directory.
+
 ## Workflow
 
 - Refer to [`README.md`](./README.md) for project structure, `data.typ` editing, theming, and `quick-save.sh`.
