@@ -1,23 +1,28 @@
-## Modern ATS Resume — Key Rules
+# Resume Writing Style
 
-- **ATS-Friendly Format:** Clean, single-column layout. No graphics, icons, text boxes, or complex tables.
+## Structure
+- Reverse-chronological order
+- 1 page (2 max if 8+ years experience)
+- No photo, no objective statement
+- Sections: Summary (optional, 2-3 lines) → Skills → Experience → Projects → Education
 
-- **Job Keywords:** Match important keywords from the job description.
+## Bullet Style
+- Start with strong action verbs: Built, Architected, Optimized, Deployed, Automated
+- Format: **what you did → how (tech/method) → measurable result**
+  - Example: "Deployed Kubernetes-based CI/CD pipeline on AWS, reducing deployment time by 40%"
+- Quantify everything possible (%, time saved, cost reduced, scale handled)
+- No personal pronouns ("I", "my")
+- Bullets only, no paragraphs — 1-2 lines each
 
-- **Strong Summary:** Keep it short, specific, and focused on value.
+## Content Priorities
+- Lead with impact, not responsibilities
+  - Good: "Reduced infra cost by $50K/year"
+  - Avoid: "Responsible for infra"
+- Name specific tools/platforms: AWS/Azure/GCP, Terraform, Docker, Kubernetes, LangChain, vector DBs, MLOps tools
+- List certifications separately (AWS/Azure/GCP, AI/ML certs)
+- Include a "Projects" section for personal/open-source AI or cloud work
 
-- **Results Over Duties:** Show achievements and impact, not just responsibilities.
-
-- **Use Metrics:** Add numbers, percentages, revenue, savings, growth, or other results when available.
-
-- **Relevant Skills:** Include only skills relevant to the target role.
-
-- **Simple English:** Use plain, clear English. Keep necessary technical keywords and terms accurate.
-
-- **Strong Action Verbs:** Start bullets with verbs like **Led, Built, Developed, Improved, Optimized, Reduced, Delivered**.
-
-- **Natural Keywords:** Use keywords naturally. Avoid keyword stuffing and repetition.
-
-- **Tailor the Resume:** Customize the resume for each job.
-
-- **Keep It Clear:** Remove filler, generic statements, and unnecessary details.
+## Tone & Formatting
+- Clean, minimal design — no colors/graphics unless design-adjacent role
+- ATS-friendly: standard fonts (Calibri, Arial), no tables/columns/text boxes, no critical info in headers/footers
+- Consistent tense: past roles = past tense, current role = present tense
