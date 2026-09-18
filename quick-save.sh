@@ -75,4 +75,13 @@ set -e
 
 # Filter out non-essential warnings from the typst output
 grep -Ev '@preview/scienceicons|no whitespace before raw text|= hint:|[│┌─]|^[[:space:]]*$' "$TMPLOG" >&2 || true
+
+# -- notify --
+# Print a clickable file:// link and open it in Firefox (compile mode only)
+if [[ $TYPST_EXIT -eq 0 && -f "$OUT" ]]; then
+  ABS_OUT="$(cd "$(dirname "$OUT")" && pwd)/$(basename "$OUT")"
+  echo "click here: file://${ABS_OUT}"
+  [[ "$CMD" == "compile" ]] && open -a "Safari" "file://${ABS_OUT}"
+fi
+
 exit $TYPST_EXIT
